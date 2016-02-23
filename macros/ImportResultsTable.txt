@@ -4,7 +4,7 @@
   lineseparator = "\n";
   cellseparator = ",\t";
 
-  // copies the whole table to an array of lines
+  // copies  whole table to an array of lines
   lines=split(File.openAsString(""), lineseparator);
   if (lines.length==0) return;
   path = File.directory + File.name;
